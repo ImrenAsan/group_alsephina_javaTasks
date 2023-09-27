@@ -1,10 +1,12 @@
 package week1_codingTasks;
 
 public class divideWithoutOperator {
-    public static void main(String[] args) {
 
-        int a = 75;
-        int b = 13;
+    public static void main(String[] args) {
+        System.out.println(divideWithoutOperator(75,15));
+
+    }
+    public static int divideWithoutOperator(int a, int b) {
 
         int count = 0;
 
@@ -13,7 +15,8 @@ public class divideWithoutOperator {
             a = a-b;
         }
 
-        System.out.println(count);
+        return count;
+
 
 
     }
