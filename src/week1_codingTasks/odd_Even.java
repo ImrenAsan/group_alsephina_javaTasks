@@ -1,9 +1,11 @@
 package week1_codingTasks;
 
 public class odd_Even {
-    public static void main(String[] args) {
 
-        int x = 15;
+    public static void main(String[] args) {
+        oddAndEvenNumbers(15);
+    }
+    public static void oddAndEvenNumbers(int x) {
 
         if (x%2 == 0){
             System.out.println("Even number");
