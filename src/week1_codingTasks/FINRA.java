@@ -1,9 +1,13 @@
 package week1_codingTasks;
 
 public class FINRA {
-    public static void main(String[] args) {
 
-        for (int i = 1; i < 31; i++) {
+    public static void main(String[] args) {
+        finra(30);
+    }
+    public static void finra(int n) {
+
+        for (int i = 1; i <= n; i++) {
 
             if (i % 15 == 0){
                 System.out.print(" FINRA ");
