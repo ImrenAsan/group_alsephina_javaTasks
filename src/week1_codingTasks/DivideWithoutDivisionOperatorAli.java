@@ -4,7 +4,7 @@ public class DivideWithoutDivisionOperatorAli {
 
     public static void main(String[] args) {
         int x = 23;
-        int y = 7;
+        int y = 0;
 
          divide(x,y);
     }
