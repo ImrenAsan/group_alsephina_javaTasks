@@ -4,7 +4,7 @@ public class Task3_SumOfDigits_Imren {
 
     public static void main(String[] args) {
 
-        System.out.println("sumOfDigits(\"45hfbgn7sn6kxmh5\") = " + sumOfDigits("45hfbgn7sn6kxmh5"));
+        System.out.println(sumOfDigits("h5nj6nk3n4"));
 
     }
 
