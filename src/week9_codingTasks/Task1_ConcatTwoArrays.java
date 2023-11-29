@@ -26,5 +26,6 @@ public class Task1_ConcatTwoArrays {
         int[] array2 = {7,8,9};
 
         System.out.println(Arrays.toString(concateTwoArray(array1,array2)));
+
     }
 }
